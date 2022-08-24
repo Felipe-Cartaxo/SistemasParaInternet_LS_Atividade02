@@ -1,13 +1,9 @@
 // Problema: Desenvolva um programa que, ao ler um determinado vetor, devolva o produto dos elementos do vetor
 
 function product (array) { // Função para calcular o produto dos elementos de um vetor
-    let array_total_product = 1;
+    let arrayTotal = array.reduce((previousValue, currentValue) => previousValue * currentValue)
 
-    for (let x = 0; x < (array.length); x++) {
-        array_total_product *= array[x];
-    }
-
-    return array_total_product;
+    return arrayTotal;
 }
 
 // Saída do programa

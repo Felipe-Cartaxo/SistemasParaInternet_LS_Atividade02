@@ -1,15 +1,10 @@
 // Problema: Desenvolva um programa que, ao ler um determinado vetor, retorne APENAS a soma dos elementos ímpares do vetor
 
 function sum_Odds(array) { // Função para somar APENAS os elementos ímpares de um vetor
-    let array_total_odd = 0;
+    let arrayOdds = array.filter((array => array % 2 == 1));
+    let arrayTotal = arrayOdds.reduce((previousValue, currentValue) => previousValue + currentValue, 0);
 
-    for (let x = 0; x < (array.length); x++) {
-        if (array[x] % 2 == 1) {
-            array_total_odd += array[x];
-        }
-    }
-    
-    return array_total_odd;
+    return arrayTotal;
 }
 
 // Saída do programa
