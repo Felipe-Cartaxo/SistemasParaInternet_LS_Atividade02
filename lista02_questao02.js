@@ -1,4 +1,4 @@
-// Problema: Desenvolva um programa que, ao ler um determinado vetor, devolva a soma dos elementos ímpares do vetor
+// Problema: Desenvolva um programa que, ao ler um determinado vetor, retorne APENAS a soma dos elementos ímpares do vetor
 
 function sum_Odds(array) { // Função para somar APENAS os elementos ímpares do vetor
     let array_total_odd = 0;

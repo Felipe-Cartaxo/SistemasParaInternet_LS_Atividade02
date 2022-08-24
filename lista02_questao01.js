@@ -1,4 +1,4 @@
-// Problema: Desenvolva um programa que, ao ler um determinado vetor, devolva a soma dos elementos do vetor
+// Problema: Desenvolva um programa que, ao ler um determinado vetor, retorne a soma dos elementos do vetor
 
 function sum(array) { // Função para somar os elementos do vetor
     let array_total = 0;
