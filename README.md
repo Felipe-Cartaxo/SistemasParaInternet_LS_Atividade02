@@ -1,4 +1,4 @@
-# LS - Atividade 01
+# LS - Atividade 02
 
 2ª Atividade da disciplina de Linguagens de Script (2º período) do curso de Sistemas para Internet, IFPB Campus João Pessoa
 
